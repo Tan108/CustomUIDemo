@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ScanBarcodeLayoutView">
+        <attr name="centerRectangleColor" format="color|reference" />
+        <attr name="topRightAngleColor" format="color|reference" />
+        <attr name="AngleWidth" format="float" />
+        <attr name="topLeftAngleColor" format="color|reference" />
+        <attr name="bottonLeftAngleColor" format="color|reference" />
+        <attr name="bottomRightAngleColor" format="color|reference" />
+        <attr name="LeftTopAngleHeightAtXSide" format="float" />
+        <attr name="LeftTopAngleHeightAtYSide" format="float" />
+        <attr name="RightTopAngleHeightAtXSide" format="float" />
+        <attr name="RightTopAngleHeightAtYSide" format="float" />
+        <attr name="RightBottomAngleHeightAtXSide" format="float" />
+        <attr name="RightBottomAngleHeightAtYSide" format="float" />
+        <attr name="LeftBottomAngleHeightAtXSide" format="float" />
+        <attr name="LeftBottomAngleHeightAtYSide" format="float" />
+        <attr name="SpaceBetweenCenterRectangleAndCornerAngleHorizontally" format="float" />
+        <attr name="SpaceBetweenCenterRectangleAndCornerAngleVertically" format="float" />
+    </declare-styleable>
+
+</resources>

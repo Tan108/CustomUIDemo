@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.tan.scanviewlayout.ScanBarcodeLayoutView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        app:AngleWidth="5"
+        app:LeftBottomAngleHeightAtXSide="50"
+        app:LeftBottomAngleHeightAtYSide="50"
+        app:RightBottomAngleHeightAtXSide="50"
+        app:RightBottomAngleHeightAtYSide="50"
+        app:LeftTopAngleHeightAtXSide="50"
+        app:LeftTopAngleHeightAtYSide="50"
+        app:RightTopAngleHeightAtXSide="50"
+        app:RightTopAngleHeightAtYSide="50"
+        app:SpaceBetweenCenterRectangleAndCornerAngleHorizontally="15"
+        app:SpaceBetweenCenterRectangleAndCornerAngleVertically="15"
+        app:bottomRightAngleColor="#FFB01D"
+        app:centerRectangleColor="#001339C3"
+        app:topLeftAngleColor="#FFB01D"
+        app:topRightAngleColor="#FFB01D"
+        app:bottonLeftAngleColor="#FFB01D"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
